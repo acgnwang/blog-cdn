@@ -7,6 +7,8 @@ wget https://download.fastgit.org/A/A/releases/download/1.0/1.0.tar.gz
 #gitclone.com镜像
 git config --global url."https://gitclone.com/".insteadOf https://
 git clone https://github.com/tendermint/tendermint.git
+##谨记提交前把.git下的config文件中url换成自己真正的地址才可提交
+
 
 ## 修复国内github媒体资源显示问题，复制以下到C:\Windows\System32\drivers\etc\hosts文件中
 # GitHub HOST-DNS Start 
